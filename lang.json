@@ -1,7 +1,7 @@
 {
     "english": {
         "frame": {
-            "title": "tinyCTF",
+            "title": "Purdue CTF",
             "toggle": "Toggle navigation",
             "login": "Sign in",
             "register": "Register",
@@ -9,15 +9,15 @@
             "logout": "log out"
         },
         "main": {
-            "title": "Hello World!",
-            "text": "Welcome text goes here"
+            "title": "Purdue Cyber Forensics Club Capture the Flag",
+            "text": "Welcome to our humble Capture the Flag. Join in and start climbing the leaderboard!"
         },
         "about": {
             "title": "About",
             "news": "News",
-            "news_text": "News go here",
+            "news_text": "Make sure to sign in!",
             "rules": "Rules",
-            "rules_text": "Rules go here"
+            "rules_text": "1. Don't hack each other\n2. Brute force is not required\n3. Social engineering other players is acceptable"
         },
         "tasks": {
             "title": "Tasks"
@@ -30,7 +30,7 @@
             "failure": "Incorrect flag",
             "solution_format": "solved by %d",
             "no_description": "(none)",
-            "placeholder": "flag{insert_flag_here}"
+            "placeholder": "PCFC{insert_flag_here}"
         },
         "scoreboard": {
             "title": "Scoreboard",

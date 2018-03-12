@@ -1,86 +1,46 @@
 {"categories": [
-    {"id": 0, "name": "Misc.", "short_name": "Misc", "tasks": [
+    {"id": 0, "name": "Forensics", "short_name": "FNX", "tasks": [
         {
             "id": 0, 
             "row": 0,
-            "name": "Test flag, please ignore", 
-            "score": "50",
-            "flag": "flag{hello_world}",
-            "desc": "The flag is hello_world, with the flag tag and brackets",
-            "file": "misc50.zip"
-        },
-        {
-            "id": 1, 
-            "row": 1,
-            "name": "Test flag, please ignore 2", 
+            "name": "Coredump", 
             "score": "100",
-            "flag": "flag{test_test}",
-            "desc": "The flag is test_test, with the flag tag and brackets",
-            "file": "misc100.zip"
+            "flag": "PCFC{t#hean;SW.er}",
+            "desc": "We've found a core file in a repository on GitHub. The developer should have added core dumps to his .gitignore. See if you can do anything with it.",
+            "file": "core"
         }
     ]},
-    {"id": 1, "name": "Web", "short_name": "Web", "tasks": [
+    {"id": 1, "name": "Pwnable", "short_name": "PWN", "tasks": [
+        {
+            "id": 1, 
+            "row": 0,
+            "name": "Insane in the Blockchain", 
+            "score": "400",
+            "flag": "PCFC{four}",
+            "desc": "Check out this transaction, on the Ethereum blockchain: <a href=\"https://etherscan.io/address/0x55dfcea405a1c9b7336cd2286c2c3040f9b13e7d\" rel=\"nofollow\">https://etherscan.io/address/0x55dfcea405a1c9b7336cd2286c2c3040f9b13e7d</a>",
+            "file": "geth"
+        }
+    ]},
+    {"id": 2, "name": "Trivia", "short_name": "TRV", "tasks": [
         {
             "id": 2, 
             "row": 0,
-            "name": "Some sqli task", 
-            "score": "100",
-            "flag": "flag{web_test}",
-            "desc": "The flag is web_test, with the flag tag and brackets",
-            "file": "web100.zip"
+            "name": "Subresource", 
+            "score": "300",
+            "flag": "PCFC{Link Fingerprints}",
+            "desc": "What is the name of the idea that inspired Subresource Integrity?",
+            "file": ""
         }
     ]},
-    {"id": 2, "name": "Reversing", "short_name": "Rev", "tasks": [
+    {"id": 3, "name": "Web Hacking", "short_name": "WEB", "tasks": [
         {
             "id": 3, 
             "row": 0,
-            "name": "gdb is your friend", 
+            "name": "Bad Plugin", 
             "score": "100",
-            "flag": "flag{reversing_is_fun}",
-            "desc": "The flag is reversing_is_fun, with the flag tag and brackets",
-            "file": "rev100.zip"
-        }
-    ]},
-    {"id": 3, "name": "Exploit", "short_name": "Exp", "tasks": [
-        {
-            "id": 4, 
-            "row": 0,
-            "name": "Smashing the stack for fun and profit", 
-            "score": "200",
-            "flag": "flag{pwning_is_even_more_fun}",
-            "desc": "The flag is pwning_is_even_more_fun, with the flag tag and brackets",
-            "file": "pwn200.zip"
-        }
-    ]},
-    {"id": 4, "name": "Crypto", "short_name": "Cry", "tasks": [
-        {
-            "id": 5, 
-            "row": 0,
-            "name": "Some simple crypto task here", 
-            "score": "100",
-            "flag": "flag{some_crypto_task}",
-            "desc": "The flag is some_crypto_task, with the flag tag and brackets",
-            "file": "cry100.zip"
-        },
-        {
-            "id": 6, 
-            "row": 1,
-            "name": "More crypto tasks!", 
-            "score": "200",
-            "flag": "flag{more_crypto}",
-            "desc": "The flag is more_crypto, with the flag tag and brackets",
-            "file": "cry200.zip"
-        }
-    ]},
-    {"id": 5, "name": "Stego", "short_name": "Steg", "tasks": [
-        {
-            "id": 7, 
-            "row": 0,
-            "name": "Ucucuga", 
-            "score": "100",
-            "flag": "flag{ucucuga}",
-            "desc": "The flag is ucucuga, with the flag tag and brackets",
-            "file": "stego100.zip"
+            "flag": "PCFC{6omDaHt4beJ2z1jRdJSz}",
+            "desc": "John keeps telling everyone that he is such a good fullstack sysadmin devop but you will teach him a lesson. Shame him by finding the site database password.",
+            "file": ""
         }
     ]}
 ]}
