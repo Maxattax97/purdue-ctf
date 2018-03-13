@@ -1,14 +1,14 @@
-tinyctf-platform
+purdue-ctf
 ================
 
-`tinyctf-platform` is yet another open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify. Hopefully it will become even better over time, with other people contributing.
+`purdue-ctf` is the CTF management system used by the Purdue Cyber Forensics club.
 
-![alt text](http://i.imgur.com/dqGeLNM.jpg "tinyctf-platform in action")
+![Image of Purdue CTF](https://i.imgur.com/xxresvd.png "purdue-ctf in action")
 
 Deployment
 ----------
 
-To deploy `tinyctf-platform` on an EC2 instance, execute the following commands:
+To deploy `purdue-ctf` on an EC2 instance, execute the following commands:
 
 Become root, upgrade
 
@@ -29,8 +29,8 @@ Install Flask and dataset
     
 Clone the repo
 
-    git clone https://github.com/balidani/tinyctf-platform.git
-    cd tinyctf-platform/
+    git clone https://github.com/maxattax97/purdue-ctf.git
+    cd purdue-ctf/
     
 Import the tasks
 

@@ -1,46 +1,104 @@
 {"categories": [
     {"id": 0, "name": "Forensics", "short_name": "FNX", "tasks": [
         {
-            "id": 0, 
+            "id": 0,
             "row": 0,
-            "name": "Coredump", 
+            "name": "Coredump",
             "score": "100",
-            "flag": "PCFC{t#hean;SW.er}",
+            "flag": "PCFC{S3G_F!!LT}",
             "desc": "We've found a core file in a repository on GitHub. The developer should have added core dumps to his .gitignore. See if you can do anything with it.",
             "file": "core"
-        }
-    ]},
-    {"id": 1, "name": "Pwnable", "short_name": "PWN", "tasks": [
-        {
-            "id": 1, 
-            "row": 0,
-            "name": "Insane in the Blockchain", 
+        },
+	{
+            "id": 1,
+            "row": 1,
+            "name": "A Picture",
+            "score": "150",
+            "flag": "PCFC{S@L\\/4D0R_D4L1}",
+            "desc": "Napoleon Bonaparte is often quoted with saying, \"A picture is worth a million words.\"",
+            "file": "picture.jpg"
+        },
+	{
+            "id": 2,
+            "row": 2,
+            "name": "Insane in the Blockchain",
             "score": "400",
             "flag": "PCFC{four}",
             "desc": "Check out this transaction, on the Ethereum blockchain: <a href=\"https://etherscan.io/address/0x55dfcea405a1c9b7336cd2286c2c3040f9b13e7d\" rel=\"nofollow\">https://etherscan.io/address/0x55dfcea405a1c9b7336cd2286c2c3040f9b13e7d</a>",
             "file": "geth"
         }
     ]},
-    {"id": 2, "name": "Trivia", "short_name": "TRV", "tasks": [
+    {"id": 1, "name": "Trivia", "short_name": "TRV", "tasks": [
         {
-            "id": 2, 
+            "id": 4,
             "row": 0,
-            "name": "Subresource", 
+            "name": "Subresource",
             "score": "300",
             "flag": "PCFC{Link Fingerprints}",
             "desc": "What is the name of the idea that inspired Subresource Integrity?",
             "file": ""
         }
     ]},
-    {"id": 3, "name": "Web Hacking", "short_name": "WEB", "tasks": [
+    {"id": 2, "name": "Web Hacking", "short_name": "WEB", "tasks": [
         {
-            "id": 3, 
+            "id": 5,
             "row": 0,
-            "name": "Bad Plugin", 
+            "name": "Bad Plugin",
             "score": "100",
             "flag": "PCFC{6omDaHt4beJ2z1jRdJSz}",
             "desc": "John keeps telling everyone that he is such a good fullstack sysadmin devop but you will teach him a lesson. Shame him by finding the site database password.",
             "file": ""
+        },
+        {
+            "id": 6,
+            "row": 1,
+            "name": "Triskadekaphobia",
+            "score": "200",
+            "flag": "PCFC{FILL_ME_IN}",
+            "desc": "If you have triskadekaphobia, please do not continue to use this service. Otherwise, connect via: nc challenge.ctf.wtf 60001",
+            "file": ""
+        }
+    ]},
+    {"id": 3, "name": "Social Engineering & OSINT", "short_name": "SEO", "tasks": [
+        {
+            "id": 7,
+            "row": 0,
+            "name": "Greed is Good",
+            "score": "-1",
+            "flag": "PCFC{grEEd-IS_G0000000d}",
+            "desc": "PCFC{grEEd-IS_G0000000d}",
+            "file": ""
+        },
+        {
+            "id": 8,
+            "row": 1,
+            "name": "Untitled",
+            "score": "0",
+            "flag": "PCFC{BLANK_FlAgg}",
+            "desc": "This task is currently unimplemented.",
+            "file": ""
+        }
+    ]},
+    {"id": 4, "name": "Scripting", "short_name": "SCR", "tasks": [
+        {
+            "id": 9,
+            "row": 0,
+            "name": "Untitled",
+            "score": "0",
+            "flag": "PCFC{BLANK_FlAgg}",
+            "desc": "This task is currently unimplemented.",
+            "file": ""
+        }
+    ]},
+    {"id": 5, "name": "Cryptography", "short_name": "CRY", "tasks": [
+        {
+            "id": 10,
+            "row": 0,
+            "name": "Inception",
+            "score": "100",
+            "flag": "PCFC{INSERT_TEXT_ENCODE_B64_GOTO_1}",
+            "desc": "A dream inside a dream inside a dream inside a dream inside a dream inside a dream inside a dream inside a dream...",
+            "file": "garbled.txt"
         }
     ]}
 ]}

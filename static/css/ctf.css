@@ -7,14 +7,14 @@ body {
  */
 
 .full {
-background: url('../img/hex.png') no-repeat center center fixed; 
+background: url('../img/hex.png') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
 .table > thead > tr > th {
-   background-color: rgba(0, 0, 0, 0.5); 
+   background-color: rgba(0, 0, 0, 0.5);
    color: #eee;
 }
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
@@ -77,14 +77,14 @@ background-size: cover;
  */
 
 .chall-box {
-    margin: 20px;
-    width: 120px;
+    margin: 10px;
+    width: 150px;
     height: 120px;
-    padding-top: 45px;
+    padding: 10px;
     border-radius: 5%;
     text-align:center;
     background-color: rgba(255, 255, 255, 0.75);
-    font-size: 16pt;
+    font-size: 14pt;
     color: #333;
 }
 
